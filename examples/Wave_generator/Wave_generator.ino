@@ -1,5 +1,4 @@
 /***************************************************************************************************
-
 * 7Semi MCP4728 – 4 Channel Sine Wave Generator
 *
 * * Generates smooth sine waves on all 4 channels
@@ -10,9 +9,7 @@
 * * Output range: 0 → VDD (3.3V)
 * * Uses lookup table for performance
 ***************************************************************************************************/
-#include <Wire.h>
 #include <7Semi_MCP4728.h>
-#include <math.h>
 
 #define MCP4728_ADDR 0x60
 #define VREF_VOLTAGE 3.30
